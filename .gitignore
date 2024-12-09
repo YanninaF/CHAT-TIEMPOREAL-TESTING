@@ -1,0 +1,16 @@
+
+# Ignorar cachés de Python y Pytest
+__pycache__/
+.pytest_cache/
+/tests/__pycache__
+.coverage
+./htmlcov
+
+# Archivos generados por el sistema operativo o IDEs
+.DS_Store
+*.log
+*.swp
+
+# Entornos virtuales y dependencias locales
+venv/
+/venv
